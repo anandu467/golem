@@ -7,7 +7,7 @@ import { nanoid } from 'nanoid'
 import { encoding_for_model } from '@dqbd/tiktoken'
 import trimIndent from '~~/utils/string'
 import { fetchSSE } from '~~/utils/fetch-sse'
-const CHAT_COMPLETION_ENDPOINT = 'https://api.openai.com/v1/chat/completions'
+const CHAT_COMPLETION_ENDPOINT = 'https://minw07.run-ap-south1.goorm.app/amgpt/api/openai/v1/chat/completions'
 
 const TokenCounter = {
     'gpt-4': encoding_for_model('gpt-4'),
